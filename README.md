@@ -5,6 +5,11 @@
 As you know, IOTA is a fee-less transaction system, this means that you can carry some data within the transaction without paying a single Iota.
 The aim of this library is to semplify the upload and the fetching from tangle by converting any object to JSON and viceversa.
 
+## Install
+
+```
+npm install iota-json-helper
+```
 
 ## Initialize
 
