@@ -1,6 +1,6 @@
 {
   "name": "iota-json-helper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A IOTA helper lib for encrypt and decrypt transactions on the fly",
   "main": "./lib/iota-helper.js",
   "repository": {
