@@ -1,0 +1,29 @@
+{
+  "name": "iota-json-helper",
+  "version": "0.1.0",
+  "description": "A IOTA helper lib for encrypt and decrypt transactions on the fly",
+  "main": "./lib/iota-helper.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pascalbros/IOTA-JSON-Helper"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "iota.lib.js": "^0.4.2",
+    "curl.lib.js": "^1.0.22",
+    "urlsafe-base64": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/tests.js",
+    "build": "browserify lib/iota-helper.js -o helper.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
