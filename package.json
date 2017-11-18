@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "iota.lib.js": "^0.4.2",
+    "iota.lib.js": "^0.4.3",
     "curl.lib.js": "^1.0.22",
     "urlsafe-base64": "^1.0.0"
   },
