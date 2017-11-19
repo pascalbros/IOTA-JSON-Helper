@@ -17,6 +17,7 @@ npm install iota-json-helper
 var IotaHelper = require("iota-json-helper");
 var helper = new IotaHelper();
 helper.init("<MY_SEED_OR_NULL>"); //Leave it null to generate a random seed
+helper.init("<MY_SEED_OR_NULL>", "http://localhost:14625"); //Custom node
 ```
 
 ## Upload
